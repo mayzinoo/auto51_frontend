@@ -1,0 +1,33 @@
+.process-description{
+    padding-bottom: 45px;
+}
+
+.processsTitle{
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    color: #222222;
+    text-transform: uppercase;
+    padding-bottom: 22px;
+    margin-bottom: 25px;
+}
+
+.processsTitle::before {
+    content: "";
+    position: absolute;
+    left: 49%;
+    width: 117px;
+    height: 4px;
+    border-top: 1px solid #00a55e;
+    border-bottom: 1px solid #00a55e;
+    margin-left: -30px;
+    margin-top: 50px;
+}
+
+.processParagraph{
+    text-align: center;
+    color: #565656f8;
+    margin: 0px;
+    padding: 0px 20px;
+    line-height: 27px;
+}

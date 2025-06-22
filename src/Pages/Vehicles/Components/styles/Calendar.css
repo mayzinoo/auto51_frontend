@@ -1,0 +1,18 @@
+.fc-highlight {
+    background-color: rgba(255, 84, 0, 0.4) !important;
+}
+
+.calendar-btn {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    background: #222222;
+    text-align: center;
+    padding: 0 30px;
+    border: none;
+    height: 45px;
+    line-height: 45px;
+    transition: all 0.3s linear;
+}

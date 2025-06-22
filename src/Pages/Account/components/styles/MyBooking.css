@@ -1,0 +1,55 @@
+.mybooking {
+  padding: 30px 60px 30px 30px !important;
+}
+
+@media all and (max-width: 450px) {
+  .mybooking {
+    padding: 3px 0px 0px 0px !important;
+  }
+
+  .booking-form-wrap {
+    box-shadow: #00000029 0px 1px 4px;
+    background-color: #ffffff;
+    padding: 0px 0px 0px 0px;
+  }
+}
+
+.sub-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-color: #fff !important;
+  --bs-nav-tabs-link-hover-border-color: #fff #fff #fff !important;
+  --bs-nav-tabs-link-active-border-color: #fff #fff #fff !important;
+  margin-bottom: 0px !important;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+  color: #00a55e;
+  background-color: #fff !important;
+  border-color: #fff !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #222222;
+  background-color: #fff !important;
+  border-color: #fff !important;
+}
+
+.nav-tabs{
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.nav-link {
+  color: #222222;
+}
+
+.booking-form-wrap {
+  box-shadow: #00000029 0px 1px 4px;
+  background-color: #ffffff;
+  padding: 30px 30px 10px 30px;
+}

@@ -1,0 +1,114 @@
+.main-div {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  border-top: 1px solid #9CA3AF;
+}
+
+.img-main-div {
+  max-width: 180px;
+}
+
+.img-css {
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.detail-main-div {
+  display: flex;
+  flex: 1 1 0%;
+  flex-direction: row;
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2rem * var(--tw-space-x-reverse));
+  margin-left: calc(2rem * (1 - var(--tw-space-x-reverse)));
+}
+
+.detail-sub-div {
+  padding-right: 2rem;
+  flex: 1 1 0%;
+}
+
+.title-main-div {
+  align-items: center;
+  display: flex;
+}
+
+.title-sub-div {
+  opacity: 1;
+  color: #1F2937;
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  margin-bottom: 5px;
+}
+
+.title-span-div {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * (1 - var(--tw-space-x-reverse)));
+  opacity: 1;
+  color: #92400E;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-top: 1px;
+  padding-bottom: 4px;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  --tw-bg-opacity: 1;
+  background-color: #f7e6a4;
+  border-radius: 9999px;
+  align-items: center;
+  display: inline-flex;
+  margin-top: -2px;
+}
+
+.booking-data-main-css {
+  opacity: 1;
+  color: #4B5563;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  flex-direction: column;
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.booking-data-sub-css {
+  padding-right: 0.75rem;
+  --tw-border-opacity: 1;
+  border-color: #9CA3AF;
+  margin-right: 0.75rem;
+  margin-bottom: 3px;
+}
+
+.text-green-500 {
+  opacity: 1;
+  color:#00a55e;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.no-data-main-div {
+  padding-left: 11px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  flex-direction: row;
+  align-items: center;
+  display: flex;
+  border-top: 1px solid #9CA3AF;
+}
+
+.no-data-css{
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 15px;
+  color: #000;
+}

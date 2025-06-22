@@ -1,0 +1,106 @@
+.featuredVehi-container{
+    width: 100%;
+    background: url(../assets/wallhaven.png);
+    background-size: cover;
+    padding-top: 150px;
+    padding-bottom: 70px;
+    position: relative;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-bottom: 4px solid #00a55e;
+    border-top: 4px solid #00a55e;
+}
+
+.featuredVehi-tab-container{
+    margin-top: 0;
+    margin-bottom: -1px;
+    text-align: center;
+    display: block;
+}
+
+.featuredVehi-tab-list{
+    padding-left: 1px;
+    padding-top: 1px;
+    margin: 0;
+    list-style-type: none;
+    display: block;
+    box-sizing: border-box;
+}
+
+.featuredVehi-tab{
+    margin-left: -1px;
+    margin-top: -1px;
+    display: inline-block;
+}
+
+.featuredVehi-tab > a{
+    border: none !important;
+    background-image: none !important;
+    padding: 10px 20px !important;
+    min-width: 200px;
+    display: block;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #fff ;
+    color: #000;
+}
+.ft-active{
+    background-color: #00a55e !important;
+    color: #fff !important;
+    background-clip: border-box;   
+}
+
+.featuredVehi-tab:first-child:not(:last-child) > a{
+    border-bottom-left-radius: 5px !important;
+    border-top-left-radius: 5px !important;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.featuredVehi-tab:last-child:not(:first-child) > a{
+    border-bottom-right-radius: 5px !important;
+    border-top-right-radius: 5px !important;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+
+}
+
+.featuredVehi-tab .ft_active > a:hover{
+    cursor: default;
+    box-shadow: none;
+}
+
+.featuredVehi-tab-title {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.featuredVehi-tab-description {
+    margin-top: 14px !important;
+    margin-bottom: 16px !important;
+    padding-top: 34px !important;
+    padding-bottom: 33px !important;
+    position: relative;
+   
+}
+
+.featuredVehi-tab-description ::before{
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 50%;
+    width: 60px;
+    height: 4px;
+    border-top: 1px solid #00a55e;
+    border-bottom: 1px solid #00a55e;
+}
+.featuredVehi-tab-description p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 22px;
+    color: #fff;
+}

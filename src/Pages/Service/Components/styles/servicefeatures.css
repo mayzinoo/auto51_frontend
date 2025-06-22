@@ -1,0 +1,131 @@
+.service-features-section {
+    padding: 60px 0;
+}
+
+.service-features-desc-text h4::after {
+    content: "AUTO 51";
+    color: #00a55e;
+}
+
+.service-features-desc-text h4,
+.servicetitle {
+    font-weight: 700;
+    font-size: 35px !important;
+    text-transform: uppercase;
+}
+
+.service-features-desc-text p,
+.service-features-desc-list {
+    color: grey;
+    font-size: 1.125rem !important;
+}
+
+.service-features-desc-list p {
+    font-size: 20px;
+}
+
+.service-features-desc-list ul {
+    list-style: none;
+    padding: 0;
+    font-size: 15px;
+}
+
+.service-features-desc-list ul li::before {
+    content: '\1F5F9 ';
+    padding-right: 15px;
+    color: #00a55e;
+}
+
+@media only screen and (max-width: 425px) {
+    .service-features-images .service-features-image {
+        padding: 15px;
+        width: fit-content;
+    }
+
+    .service-features-images img {
+        height: 180px;
+        width: 280px;
+        border-radius: 10px;
+    }
+
+    .service-features-images-row-1,
+    .service-features-images-row-2 {
+        justify-content: center;
+    }
+
+    .service-features-desc-text .triangle-down {
+        --bs-gutter-x: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .servicetitle {
+        font-weight: 700;
+        font-size: 25px !important;
+        text-transform: uppercase;
+        margin-left: 10px;
+    }
+
+    .service-features-text {
+        margin-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 425px) and (max-width:768px) {
+    .service-features-images .service-features-image {
+        padding: 15px;
+        width: fit-content;
+    }
+
+    .service-features-images img {
+        height: 200px;
+        width: 360px;
+        border-radius: 10px;
+    }
+
+    .service-features-images-row-1,
+    .service-features-images-row-2 {
+        justify-content: center;
+    }
+
+    .service-features-desc-text .triangle-down {
+        --bs-gutter-x: 0;
+        margin-left: 25%;
+    }
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .service-features-images .service-features-image {
+        padding: 10px;
+        width: fit-content;
+    }
+
+    .service-features-images img {
+        height: 100px;
+        width: 160px;
+        border-radius: 10px;
+    }
+
+    .service-features-desc-text .triangle-down {
+        --bs-gutter-x: 0;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .service-features-images .service-features-image {
+        padding: 15px;
+        /*width: fit-content;*/
+    }
+
+    .service-features-images img {
+        height: auto;
+        width: 100%;
+        border-radius: 10px;
+    }
+
+    .service-features-desc-text .triangle-down {
+        --bs-gutter-x: 0;
+        margin-left: 25%;
+    }
+}

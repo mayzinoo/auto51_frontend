@@ -1,0 +1,114 @@
+.editProfile {
+  padding: 30px 60px 30px 30px !important;
+}
+
+@media all and (max-width: 450px) {
+  .editProfile {
+    padding: 3px 0px 0px 0px !important;
+  }
+}
+
+
+.editprofile-wrap {
+  box-shadow: #00000029 0px 1px 4px;
+  background-color: #ffffff;
+  padding: 30px 30px 10px 30px;
+}
+
+.editprofile-sub-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.inputfield-header {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.break {
+  border-bottom: 1px solid #42424252;
+  margin: 30px 1px;
+}
+
+.edit-btn {
+  margin: 0px 15px;
+  width: 120px;
+  color: #000;
+  background-color:#00a55e;
+  border-color:#00a55e;
+}
+
+.edit-btn:hover{
+  color: #fff;
+  background-color: #303192;
+  border-color: #303192;
+}
+
+.btn-primary {
+  color: #00a55e !important;
+  border-color: #00a55e !important;
+  background-color: #fff !important;
+}
+
+.btn-primary:hover {
+  color: #fff !important;
+  border-color: #00a55e !important;
+  background-color: #00a55e !important;
+}
+
+.btnLinks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.select-css {
+  width: 50%;
+}
+
+.account-Input{
+  width: 85%;
+  padding: 10px 5px 10px 20px;
+  display: block;
+  border: 1px solid #e0dfdf;
+  border-radius: 4px;
+  transition: 0.2s ease-out;
+  background-color: #EDEDED;
+}
+
+.profileLeft {
+  justify-content: center !important;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #dbdbdb;
+}
+
+.profileImg {
+  padding: 30px;
+  text-align: center;
+}
+
+.rounded-profile {
+  border-radius: 50%;
+}
+
+input#profile-IMAGE {
+  display: none;
+}
+
+.changeBtn,
+.deleteBtn {
+  font-size: 16px;
+  display: inline-block !important;
+  margin-top: 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #00a55e;
+  cursor: pointer;
+}
+
+.deleteBtn {
+  margin-left: 20px;
+}

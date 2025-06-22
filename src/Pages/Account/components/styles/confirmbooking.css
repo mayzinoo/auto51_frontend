@@ -1,0 +1,277 @@
+.sessionForm-wrap {
+  padding: 0px 0px 0px 0px;
+}
+
+@media all and (max-width: 450px) {
+  .sessionForm-wrap {
+    padding: 30px;
+  }
+}
+
+.confirm-details-photos {
+  width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.confirmSubmitgrp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pageButtongrp {
+  margin: 0px 0px 20px 0px;
+}
+
+.sendSubmitForm {
+  padding: 7px;
+  width: 190px;
+  background-color: #00a55e;
+  color: #000;
+  transition: all 0.2s ease-in;
+}
+
+.sendSubmitForm:hover {
+  color: #fff;
+  background-color: #00a55e;
+  border-color: #00a55e;
+}
+
+.btn-primary {
+  color: #00a55e !important;
+  border-color: #00a55e !important;
+  background-color: #fff !important;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color: #00a55e;
+  border-color: #00a55e;
+}
+
+.vehicleSubmitForm:hover {
+  background-color: #fff;
+  color: black;
+  cursor: pointer;
+}
+
+.image-css {
+  width: 150px;
+  height: 100px;
+  margin-right: 8px;
+  margin-bottom: 8px;
+  text-align: center;
+  vertical-align: top;
+  background-color: #fafafa;
+  border: 1px dashed #d9d9d9;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: border-color 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-item {
+  background-color: #fafafa;
+  border: 1px dashed #d9d9d9;
+  border-radius: 2px;
+}
+
+.delete-btn {
+  position: relative;
+  z-index: 10;
+  color: #00a55e;
+  font-size: 20px;
+}
+
+.title-main-div {
+  align-items: center;
+  display: flex;
+}
+
+.title-sub-div {
+  opacity: 1;
+  color: #1F2937;
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-bottom: 5px;
+}
+
+.title-span-div {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * (1 - var(--tw-space-x-reverse)));
+  opacity: 1;
+  color: #92400E;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  padding-top: 1px;
+  padding-bottom: 4px;
+  padding-left: 0.625rem;
+  padding-right: 0.625rem;
+  --tw-bg-opacity: 1;
+  background-color: #f7e6a4;
+  border-radius: 9999px;
+  align-items: center;
+  display: inline-flex;
+  margin-top: -2px;
+}
+
+.line {
+  margin: 20px 0px 25px 0px;
+  border-bottom: 1px solid#00a55e;
+}
+
+.confirmbooking {
+  padding: 30px 60px 30px 30px !important;
+}
+
+.sub-title {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.confirmbooking-form-wrap {
+  box-shadow: #00000029 0px 1px 4px;
+  background-color: #ffffff;
+  padding: 30px 30px 10px 30px;
+}
+
+.nextstep-css {
+  font-weight: 300;
+  margin-bottom: 3px;
+}
+
+.document-css {
+  font-weight: 600;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.note-css {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 300;
+  padding-left: 1rem;
+}
+
+.car-title {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+}
+
+.confirmbooking-data-main-css {
+  opacity: 1;
+  color: #4B5563;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  flex-direction: column;
+  display: flex;
+  margin-top: 0.5rem;
+}
+
+.confirmbooking-data-sub-css {
+  --tw-border-opacity: 1;
+  border-color: #9CA3AF;
+  margin-bottom: 2px;
+}
+
+.text-green-500 {
+  opacity: 1;
+  color: #00a55e;
+}
+
+.font-semibold {
+  font-weight: 600;
+}
+
+.img-main-div {
+  max-width: 150px;
+}
+
+.img-css {
+  width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.vehicleImgDiv {
+  width: 100%;
+}
+
+.vehicleImg {
+  height: 130px;
+  width: 65%;
+  object-fit: cover !important;
+  margin-top: 15px;
+}
+
+.line1 {
+  margin: 10px 0px 0px 0px;
+  border-bottom: 1px solid#00a55e;
+}
+
+.fileUpload {
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.fileUpload input.upload {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  cursor: pointer;
+  opacity: 0;
+  filter: alpha(opacity=0);
+}
+
+.mt-20 {
+  margin-top: 20 !important;
+}
+
+.success-css {
+  color: #0f902f;
+  background-color: #fff;
+}
+
+.danger-css {
+  color: #FF0812;
+  background-color: #fff;
+}
+
+.alert-primary {
+  --bs-alert-color: #fff !important;
+  --bs-alert-bg: #fff !important;
+  --bs-alert-border-color: #fff !important;
+  --bs-alert-padding-x: 0.2rem !important;
+  --bs-alert-padding-y: 0.2rem !important;
+  border-color: #fff !important;
+}
+
+.alert-heading {
+  color: inherit;
+  font-size: 17px !important;
+  text-align: center;
+  margin-bottom: 0.1rem !important;
+}
+
+@media all and (max-width: 450px) {
+  .confirmbooking {
+    padding: 3px 0px 0px 0px !important;
+  }
+
+}

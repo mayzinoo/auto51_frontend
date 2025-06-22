@@ -1,0 +1,89 @@
+.userguide-container-wrap {
+    width: 100%;
+    background: url(../../../../assets/images/userguide_image2.png);
+    background-size: cover;
+    padding: 70px 0px;
+    margin: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  
+  .ug-bg-image {
+    /*height: 365px;*/
+    padding: 60px 0px;
+  }
+  
+  .ug-image-contents {
+    padding-top: 50px;
+  }
+  
+  .ug-mainheader {
+    margin-bottom: 100px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .ug-col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .ug-col {
+      margin-bottom: 40px;
+    }
+  }
+  
+  .ug-col-number-wrap {
+    height: 26px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    background-size: 200px 100px !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    transition: all 0.1s linear;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+  }
+  
+  .ug-col-number-wrap:hover {
+    transform: scale(1.2);
+  }
+  
+  .ug-col-number {
+    color: #fff;
+    font-weight: 600;
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+    background: #00a55e;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    line-height: 30px;
+    padding: 20px 0px;
+  }
+  
+  .ug-col-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    line-height: 40px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  
+  .ug-col-short-desc {
+    padding: 0px 32px;
+    margin-bottom: 0px;
+    font-size: 1.25rem;
+    color: #fff;
+  }
+
+  

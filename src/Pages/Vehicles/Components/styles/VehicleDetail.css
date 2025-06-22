@@ -1,0 +1,611 @@
+.vehicle-cs-carousel-item-wrap {
+  background-color: #fff;
+  height: 350px;
+  text-decoration: none;
+  color: #222222;
+  border-radius: 10px;
+  margin: 15px 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.img-fluid {
+  width: 830px;
+  height: 110%;
+  object-fit: cover;
+}
+
+
+.rec-arrow-left,
+.rec-arrow-right {
+  border-radius: 20px !important;
+  width: 30px !important;
+  height: 80px !important;
+  min-width: 35px !important;
+  color: #00a55e !important;
+  box-shadow: none !important;
+  background-color: #fff !important;
+}
+
+.rec-arrow-left:hover,
+.rec-arrow-right:hover {
+  color: #303192 !important;
+  background-color: #fff !important;
+}
+
+.rec-dot {
+  border: 1px solid #00a55e !important;
+  box-shadow: none !important;
+}
+
+.rec-dot_active {
+  box-shadow: none !important;
+  background-color: #00a55e !important;
+  transform: scale(1) !important;
+}
+
+.car-pricing {
+  background: #00a55e;
+  box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+  padding: 5px 20px 5px;
+  border: 3px solid #fff;
+  color: #fff;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.car-price {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.center-text {
+  text-align: center;
+  color: #222;
+  font-size: 12px;
+  margin: 0;
+}
+
+.vehicle-details-box {
+  box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+  padding: 0px 20px;
+  background: #fff;
+}
+
+.selling-vehicle-details-box {
+  box-shadow: 0 2px 3px 0 rgb(0 0 0 / 10%);
+  padding: 0px 100px 10px;
+  background: #fff;
+}
+
+.widget-title {
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.widget-title:before {
+  background: #00a55e none repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 12px;
+  left: -20px;
+  position: absolute;
+  top: 9px;
+  width: 3px;
+}
+
+.span-class {
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 16px;
+  color: #363636;
+  position: relative;
+}
+
+.span-class:before {
+  background: #00a55e none repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 100%;
+  margin-top: -3px;
+  position: absolute;
+  top: 50%;
+  width: 30px;
+}
+
+.span-class:after {
+  background: #00a55e none repeat scroll 0 0;
+  content: "";
+  display: block;
+  height: 1px;
+  left: 100%;
+  margin-top: 4px;
+  position: absolute;
+  top: 50%;
+  width: 45px;
+}
+
+.car-specs {
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.car-specs-div {
+  line-height: 35px;
+}
+
+.car-specs-div-label {
+  font-weight: normal;
+  color: #868686;
+  float: left;
+}
+
+.car-specs-div-span {
+  float: left;
+  text-align: left;
+}
+
+.car-specs-div-span1 {
+  margin-right: 5px;
+}
+
+.clear {
+  height: 0;
+  clear: both;
+  display: block;
+}
+
+.hotline-tag {
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 0 3px 0 rgb(0 0 0 / 10%);
+  padding: 25px 20px;
+  position: relative;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.hotline-tag-div {
+  background: #565656;
+  color: #fff;
+  padding: 20px 30px 18px 30px;
+  box-shadow: 0 2px 3px 0 rgb(0 0 0 / 20%);
+  -webkit-box-shadow: 0 2px 3px 0 rgb(0 0 0 / 20%);
+  margin: -25px -20px;
+}
+
+.hotline-p {
+  color: #fff;
+  margin: 0;
+  letter-spacing: 0;
+}
+
+.hotline-h2 {
+  color: #fff;
+  margin: 0;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.payment-calculator {
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+.payment-calculator-label {
+  display: block;
+  font-family: "Montserrat", sans-serif;
+  padding: 15px 0 8px 0;
+  font-weight: bold;
+}
+
+.payment-calculator-span {
+  color: #00a55e;
+  font-weight: bold;
+}
+
+.payment-price {
+  border: 1px solid #dfdfdf;
+  padding: 0 15px;
+  color: #777;
+  width: 100%;
+  height: 35px !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.calculator-btn {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  width: 100%;
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #fff;
+  background: #222222;
+  text-align: center;
+  padding: 0 30px;
+  border: none;
+  height: 45px;
+  line-height: 45px;
+  transition: all 0.3s linear;
+}
+
+.calculator-btn:hover {
+  background-color: #303192;
+}
+
+.payment-result {
+  background: #00a55e;
+  padding: 0;
+  margin: 20px 0 10px 0;
+  padding: 15px;
+  height: auto;
+}
+
+.payment-result span {
+  font-size: 13px;
+  color: #fff;
+  display: block;
+  line-height: 20px;
+}
+
+.strong {
+  font-family: "Muli", sans-serif;
+  color: #fff;
+  margin-bottom: 15px;
+  display: block;
+  font-size: 15px !important;
+}
+
+.choose-main-css {
+  border: 1px solid;
+  border-radius: 5px;
+  margin-right: 12px;
+  margin-top: 15px;
+}
+
+.choose-sub-css {
+  margin-bottom: 3px;
+  margin-top: 11px;
+  text-align: center;
+  color: #222222;
+}
+
+.choose-sub1-css {
+  margin-bottom: 10px;
+  margin-top: 4px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.check-css {
+  margin-top: 30px;
+  font-size: 25px;
+  color: #00a55e;
+}
+
+.sub-span {
+  opacity: 1;
+  color: #fff;
+  line-height: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 11px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  --tw-bg-opacity: 1;
+  background-color: #00a55e;
+  border-radius: 9999px;
+  height: 1.3rem;
+  position: absolute;
+  margin-top: -11px;
+  margin-left: 55px;
+}
+
+.line {
+  margin: 20px 0px 30px 0px !important;
+  border-top: 2px dashed #222222;
+}
+
+.cs-item-price {
+  color: #00a55e;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.color-div {
+  justify-content: flex-end;
+  align-items: flex-end;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 4px;
+}
+
+.color-text {
+  font-size: 0.875rem;
+  line-height: 1rem;
+  opacity: 1;
+  color: #868686;
+}
+
+.color-box {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.preEmpt-error-msg {
+  color: #ff0812;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.btn-div {
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-btn {
+  margin: 0px 15px;
+  width: 250px;
+  color: #fff;
+  background-color: #00a55e;
+  border-color: #00a55e;
+}
+
+.book-btn:hover {
+  color: #fff;
+  background-color: #303192;
+  border-color: #303192;
+}
+
+.exclamation {
+  font-size: 30px;
+  color: #00a55e;
+  margin-right: 10px;
+}
+
+.exclamation-text {
+  margin-top: 2px;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.modal-content {
+  width: 130% !important;
+  margin-left: -90px !important;
+}
+
+.modal-footer {
+  display: block !important;
+}
+
+.modal-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.modal {
+  --bs-modal-padding: 2rem !important;
+  --bs-modal-header-padding: 1rem 2rem !important;
+}
+
+.radio-div {
+  border: 1px solid #00a55e;
+  border-radius: 7px;
+}
+
+.calendar-css {
+  font-size: 25px;
+  color: #00a55e;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.clock-css {
+  font-size: 25px;
+  color: #00a55e;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.phone-css {
+  font-size: 25px;
+  color: #00a55e;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.creditcard-css {
+  font-size: 25px;
+  color: #00a55e;
+  margin-top: 5px;
+  margin-right: 10px;
+}
+
+.fooder {
+  justify-content: flex-end;
+  align-items: flex-end;
+  display: flex;
+}
+
+.fooder-btn {
+  height: 40px;
+  width: 170px;
+  color: #ffff;
+  background-color: #00a55e;
+  border-color: #00a55e;
+  padding-top: 2px;
+  margin-left: 25px;
+}
+
+.fooder-btn:hover {
+  color: #ffff;
+  background-color: #303192;
+  border-color: #303192;
+}
+
+.btn-primary {
+  color: #ffff !important;
+  background-color: #00a55e !important;
+  border-color: #00a55e !important;
+}
+
+.form-check {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 2em;
+  margin: 0.5rem;
+}
+
+.form-check-billing {
+  display: block;
+  min-height: 1.5rem;
+  padding-left: 2em;
+  margin: 0.35rem !important;
+}
+
+.form-select {
+  width: 89% !important;
+}
+
+input {
+  width: 237px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  border-radius: 6px;
+  border: 1px solid #ced4da;
+}
+
+.line2 {
+  margin: 20px 0px 27px 0px !important;
+  border-top: 1px solid #9ca3af;
+  width: 96%;
+}
+
+.booking-fooder {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.tab-css {
+  justify-content: center;
+}
+
+.nav-tabs {
+  --bs-nav-tabs-border-color: #fff !important;
+  --bs-nav-tabs-link-hover-border-color: #fff #fff #fff !important;
+  --bs-nav-tabs-link-active-border-color: #fff #fff #fff !important;
+  margin-bottom: 10px !important;
+  border-bottom: 2px solid #00a55e !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: #00a55e;
+  background-color: #ffff !important;
+  border-color: #fff;
+  border-bottom-color: #00a55e !important;
+  font-weight: 600;
+}
+
+.nav-link:hover {
+  color: #222222;
+  background-color: #fff !important;
+  border-color: #fff !important;
+  border-bottom-color: #303192 !important;
+}
+
+.nav-tabs {
+  font-size: 18px !important;
+  font-weight: 600 !important;
+}
+
+.nav-link {
+  color: #222222;
+}
+
+.row-css {
+  color: #222222;
+}
+
+/* .package-div-css {
+  margin-left: "15px"
+} */
+
+.payment-btn {
+  margin-bottom: "0px";
+}
+
+.subscription-css {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  /*  .col-sm-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  } */
+
+  .color-div {
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    display: flex;
+    margin-top: 0px;
+  }
+
+  /*   .package-div-css {
+    margin-left: "0px"
+  } */
+
+  .modal-content {
+    width: 100% !important;
+    margin-left: 0px !important;
+  }
+
+  .fooder {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
+
+  .fooder-btn {
+    height: 40px;
+    width: 170px;
+    color: #ffff;
+    background-color: #00a55e;
+    border-color: #00a55e;
+    padding-top: 2px;
+    margin-left: 0px;
+  }
+
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .payment-btn {
+    margin-bottom: "10px";
+  }
+
+
+  .subscription-css {
+    width: 50%;
+  }
+
+}

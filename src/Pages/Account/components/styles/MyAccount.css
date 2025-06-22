@@ -1,0 +1,93 @@
+.MyAccount {
+  margin: auto;
+  margin-top: 2px;
+  position: relative;
+}
+
+.userInfo {
+  padding: 30px 60px 30px 30px !important;
+}
+
+@media all and (max-width: 450px) {
+  .userInfo {
+    padding: 0px 0px 0px 0px !important;
+  }
+}
+
+
+.sub-title {
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.personal-setting-wrap {
+  box-shadow: #00000029 0px 1px 4px;
+  background-color: #ffffff;
+  padding: 20px 20px 10px 20px;
+}
+
+.profileLeft {
+  justify-content: center !important;
+  display: flex;
+  align-items: center;
+  border-right: 1px solid #dbdbdb;
+}
+
+.profileImg {
+  padding: 30px;
+  text-align: center;
+}
+
+.rounded-profile {
+  border-radius: 50%;
+}
+
+.editLink-row {
+  margin: 30px 0px 0px 0px !important;
+  border-top: 1px solid #dbdbdb;
+}
+
+.editLinks {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px 0px 0px 0px;
+  line-height: 45px;
+}
+
+.editLinks a {
+  font-size: 18px;
+  font-weight: 700;
+  color: #00a55e !important;
+  padding: 0px 30px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.account-setting-wrap {
+  box-shadow: #00000029 0px 1px 4px;
+  background-color: #ffffff;
+  padding: 30px !important;
+}
+
+.organization-setting-wrap {
+  box-shadow: #00000029 0px 1px 4px;
+  background-color: #ffffff;
+  padding: 20px !important;
+}
+
+.update-profile-remove-image {
+  background-color: #c3c5c5;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  margin-top: 82px;
+  border-radius: 20%;
+  padding: 5px;
+}
+
+.update-profile-remove-image:hover {
+  background-color: #a8a8a8;
+}

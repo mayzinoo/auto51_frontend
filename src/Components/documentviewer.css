@@ -1,0 +1,10 @@
+/* for view/delete buttons */
+.cartButton {
+    display: inline-block;
+    width: 100%;
+}
+
+.documentViewerTable {
+    background-color: transparent !important;
+    display: inline-block;
+}

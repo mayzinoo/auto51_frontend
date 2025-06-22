@@ -1,0 +1,185 @@
+@media (min-width: 450px) {
+  /** menu header */
+  .menuheader {
+    height: auto;
+    padding: 0;
+    background: transparent;
+    box-shadow: 0 2px 2px 1px rgb(0 0 0 / 10%);
+    z-index: 100;
+    /* overlap promotion */
+    position: relative;
+  }
+
+  .menuheader a.navlink {
+    color: #222222;
+  }
+
+  .menuheader .navbar-light .navbar-nav .nav-link {
+    color: #222222;
+    margin-top: 3px !important;
+  }
+
+  .menuheader .show a.navlink.active {
+    color: #00a55e;
+  }
+  /** when small navbar is not closed it should be this color, but the large dimension nav should not be affected by this css*/
+  .navbar-collapse.collapse.show a.navlink {
+    color: #222222;
+  }
+  .navbar-collapse.collapse.show .navbar-nav a.nav-link {
+    color: #222222;
+  }
+  .navbar-collapse.collapse.show a.navlink.active {
+    color: #00a55e;
+  }
+
+  /** menu header sticky */
+  .menuheader-sticky {
+    height: auto;
+    padding: 0;
+    background: #f7f9fb;
+    box-shadow: 0 2px 2px 1px rgb(0 0 0 / 10%);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .menuheader-sticky a.navlink {
+    color: #222222;
+  }
+
+  .menuheader-sticky .navbar-light .navbar-nav .nav-link {
+    color: #222222;
+  }
+
+  .menuheader-sticky a.navlink.active {
+    color: #00a55e;
+  }
+
+  /** others */
+  .menuheader-row {
+    vertical-align: middle;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #f7f9fb;
+    position: sticky;
+    top: 0;
+    width: 100%;
+  }
+
+  .navbar-brand {
+    float: left;
+    padding-left: 20px;
+  }
+
+  .navbar-collapse {
+    float: right;
+    /* padding-left: 20px; */
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  /** when small navbar is not closed it should be this color, but the large dimension nav should not be affected by this css */
+
+  .navbar-collapse.collapse.show a.navlink {
+    color: #222222;
+  }
+
+  .navbar-collapse.collapse.show .navbar-nav a.nav-link {
+    color: #222222;
+  }
+
+  .navbar-collapse.collapse.show a.navlink.active {
+    color: #00a55e;
+  }
+
+  .menuheader-sticky .navbar-collapse.collapse.show a.navlink {
+    color: #222222;
+  }
+
+  .menuheader-sticky .navbar-collapse.collapse.show .navbar-nav .nav-link {
+    color: #222222;
+  }
+
+  .menuheader-sticky .navbar-collapse.collapse.show a.navlink.active {
+    color: #00a55e;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .menuheader {
+    height: auto;
+    padding: 0;
+    background: transparent;
+    box-shadow: 0 2px 2px 1px rgb(0 0 0 / 10%);
+    z-index: 100;
+    /* overlap promotion */
+    position: relative;
+  }
+
+  .menuheader a.navlink {
+    color: #222222;
+  }
+
+  .menuheader .navbar-light .navbar-nav .nav-link {
+    color: #222222;
+  }
+
+  .menuheader a.navlink.active {
+    color: #00a55e;
+  }
+
+  .menuheader-sticky {
+    height: auto;
+    padding: 0;
+    background: #f7f9fb;
+    box-shadow: 0 2px 2px 1px rgb(0 0 0 / 10%);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+
+  .menuheader-sticky a.navlink {
+    color: #222222;
+  }
+
+  .menuheader-sticky .navbar-light .navbar-nav .nav-link {
+    color: #222222;
+  }
+
+  .menuheader-sticky a.navlink.active {
+    color: #00a55e;
+  }
+
+  .menuheader-row {
+    vertical-align: middle;
+    background: #f7f9fb;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+  .navbar-brand {
+    float: left;
+    padding-left: 20px;
+  }
+
+  .navbar-collapse {
+    float: right;
+    /* padding-left: 20px; issue for overflow */
+  }
+}
+
+@media all and (max-width: 992px) {
+  .menuheader-row {
+    padding: 5px 0px !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .navbar-brand {
+    float: left;
+    padding: 0;
+  }
+}

@@ -1,0 +1,66 @@
+.sidenavmenu {
+  padding: 18px 0px;
+}
+
+.sidenavmenu::-webkit-scrollbar {
+  display: none;
+}
+
+.linkWrap {
+  position: relative;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  padding-top: 6px;
+  text-decoration: none;
+  margin-bottom: 5px;
+  color: #000;
+}
+
+.linkWrap:hover {
+  color: #000;
+}
+
+.sideIcons {
+  display: inline-block;
+  width: 20%;
+  text-align: center;
+  font-size: 25px;
+}
+
+.sidenavmenu.minimize .topSection .linkWrap .sideIcons,
+.sidenavmenu.minimize .bottomSection .linkWrap .sideIcons {
+  padding-right: 25px;
+  padding-bottom: 53px;
+  padding-left: 25px;
+  font-size: 25px;
+}
+
+.sideNames {
+  display: inline-block;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 10px;
+}
+
+.sidenavmenu.minimize .topSection .linkWrap .sideNames,
+.sidenavmenu.minimize .bottomSection .linkWrap .sideNames {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.bottomSection {
+  position: fixed;
+  bottom: 0px;
+  width: 260px;
+}
+
+.active {
+  color: #00a55e
+}
+
+a:hover {
+  color: #00a55e;
+}

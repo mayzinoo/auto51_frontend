@@ -1,0 +1,105 @@
+/* user card text */
+.user-card-grid .user-card-info {
+    color: grey;
+    text-align: center;
+}
+.user-card-grid .user-card-info p {
+    font-size: 16px;
+}
+.user-card-grid .user-card-info span {
+    font-size: 14px;
+}
+.user-card-grid .user-info-name a {
+    color: black !important;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.user-card-brand {
+    font-size: 14px;
+}
+.user-card-brand button {
+    border: none;
+    background-color: #00a55e;
+    color: #fff;
+    padding: 5px 10px;
+}
+.user-card-brand button:hover {
+    border: 1px solid black;
+    background-color: #fff;
+    color: #00a55e;
+    padding: 4px 9px;
+}
+.user-card-brand-display {
+    background-color: #fff;
+    color: #00a55e;
+    padding: 5px 0;
+    border: 1px solid black;
+    border-radius: 14px;
+    text-align: center;
+}
+/********** list *******************/
+.user-card-list .user-card-info {
+    color: grey;
+    text-align: left;
+    width: 100%;
+}
+.user-card-list .user-card-info p {
+    font-size: 16px;
+}
+.user-card-list .user-card-info span {
+    font-size: 14px;
+}
+.user-card-list .user-info-name a {
+    color: black !important;
+    text-align: left;
+    font-size: 24px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+/* user card image */
+.user-card-grid .user-card-image {
+    margin-top: -70px;
+}
+.user-card-grid .user-card-image div {
+    margin-right: auto;
+    margin-left: auto;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    width: 40%;
+}
+.user-card-grid .user-card-image div img {
+    width: 100%;
+}
+/********** list *******************/
+.user-card-list .user-card-image div {
+    border: 5px solid #fff;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.user-card-list .user-card-image div img {
+    width: 100%;
+}
+.user-card-list .user-card-image-height {
+    width: 175px;
+    height: 175px;
+}
+.user-card-list > div {
+    align-items: center;
+    display: flex;
+}
+
+/* parent of card */
+.user-card-col {
+    padding: 15px;
+}
+/********** list *******************/
+.user-card-list {
+    background-color: #fff;
+    box-shadow: 1px 1px grey;
+    padding: 10px 0;
+}

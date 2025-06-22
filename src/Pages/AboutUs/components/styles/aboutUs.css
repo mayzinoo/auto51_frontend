@@ -1,0 +1,37 @@
+.image-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.car-image {
+  padding: 10px;
+}
+
+.paragraph-container {
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+}
+
+.mini-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.paragraph,
+.para-text {
+  text-align: center;
+}
+
+.space {
+  height: 10vh;
+}

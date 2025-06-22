@@ -1,0 +1,126 @@
+.top-header {
+    border-top: 3px solid #00a55e ;
+    padding: 5px 0;
+    line-height: 5px;
+    background: #fff;
+    font-size: 14px;
+    font-family: sans-serif!important;
+    color: #777!important;
+    position: relative;
+    z-index: 100;
+    overflow-x: hidden!important;
+}
+
+.top-header-left {
+    text-align: left;
+    margin-bottom: 0;
+    margin-top:0;
+
+}
+.top-header-right {
+    text-align: right;
+    margin-bottom: 0;
+    margin-top:0;
+}
+
+.textwidget ul {
+    margin-bottom: 0px;
+    padding:0px;
+}
+
+.textwidget li {
+    display: inline-block;
+    margin-bottom: 0;
+    color: black;
+    line-height: 33px;
+    font-size: 14px;
+    font-family: 'Muli',sans-serif;
+}
+
+.cart-icon{
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.cart-icon svg:hover{
+    color: #565656;
+}
+
+@media screen and (max-width : 1230px ) {
+    .textwidget ul li {
+        margin : 0!important;
+        padding-left : 15px;
+    }
+}
+
+@media screen and (max-width : 1000px ) {
+    .textwidget ul li {
+        float : none;
+        padding-left : 0px!important;
+    }
+}
+@media screen and (max-width: 768px){
+    .textwidget ul li:first-child {
+    padding-right: 15px!important;
+    }
+    .textwidget ul {
+        padding-left : 0px;
+    }
+    .top-header-right,.top-header-left  {
+        text-align: center;
+        width : 100%;
+    }
+    .textwidget p {
+        padding: 0;
+    }
+    
+}
+
+.textwidget p {
+    font-size: 14px;
+    color: #565656;
+    font-family: 'Muli',sans-serif;
+    margin-bottom: 0;
+    line-height: 12px;
+    margin-top: 2px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+}
+
+.textwidget p a {
+    color: #222222;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Muli',sans-serif!important;
+    padding-left: 5px;
+}
+
+.name{
+    margin-left: 10px;
+}
+
+
+.cart-icon svg{
+    color: #585c5aa4;
+}
+
+.cart-icon svg:hover{
+    color: #292929bb!important;
+}
+
+.rounded-circle{
+    padding: 1px;
+}
+
+.rounded-circle:hover{
+    background-color: #222222;
+}
+
+.welcome-css{
+    cursor: pointer;
+}
+
+.welcome-css:hover{
+    color: #00a55e;
+}

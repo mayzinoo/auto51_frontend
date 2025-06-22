@@ -1,0 +1,72 @@
+/* input field buttons css  */
+
+.input-component .input {
+    position: relative;
+    width: 90%;
+    margin: 15px auto;
+}
+
+@media only screen and (max-width: 450px) {
+    .input-component .input span {
+        position: absolute;
+        display: block;
+        color: darken(#EDEDED, 10%);
+        left: 10px;
+        top: 8px;
+        font-size: 20px;
+    }
+
+    .input-component .input {
+        position: relative;
+        width: 100%;
+        margin: 15px auto;
+    }
+
+    .input input {
+        width: 100%;
+        padding: 10px 5px 10px 35px !important;
+        display: block;
+        border: 1px solid #EDEDED;
+        border-radius: 4px;
+        transition: 0.2s ease-out;
+        color: darken(#EDEDED, 30%);
+    }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 801px) {
+    .input-component .input span {
+        position: absolute;
+        display: block;
+        color: darken(#EDEDED, 10%);
+        left: 10px;
+        top: 8px;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 801px) {
+    .input-component .input span {
+        position: absolute;
+        display: block;
+        color: darken(#EDEDED, 10%);
+        left: 10px;
+        top: 8px;
+        font-size: 20px;
+    }
+}
+
+.input input {
+    width: 100%;
+    padding: 10px 5px 10px 40px;
+    display: block;
+    border: 1px solid #EDEDED;
+    border-radius: 4px;
+    transition: 0.2s ease-out;
+    color: darken(#EDEDED, 30%);
+}
+
+.input input :focus{
+    padding: 10px 5px 10px 10px;
+    outline: 0;
+    border-color: #FF7052;
+}

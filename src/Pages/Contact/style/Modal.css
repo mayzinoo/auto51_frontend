@@ -1,0 +1,51 @@
+.modal-header {
+    padding : 20px;
+}
+
+.modal-title {
+    font-family: 'Muli',sans-serif;
+    font-weight: 700!important;
+    font-size: 22px!important;
+    color: #565656;
+}
+
+.state-name{
+    color: #565656;
+    font-family: 'Muli',sans-serif;
+    font-size: 23px;
+    padding: 15px
+}
+
+.num-col{
+    padding-left: 30px!important;
+    padding-bottom: 20px!important;
+}
+
+.country-name{
+    color: #565656;
+    font-family: 'Muli',sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.number{
+    color: #016a80;
+    font-size: 11px;
+    text-decoration: none;
+}
+
+.number:hover{
+    color: #00a55e;
+  
+}
+
+.modal-close{
+    background-color: #00a55e; 
+    border-radius: 10px;
+    color: #fff;
+    padding: 7px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

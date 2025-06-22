@@ -1,0 +1,44 @@
+.corporate-container-wrap {
+  width: 100%;
+  padding: 60px 0px 60px 0px;
+  background: url(../../../../assets/images/key.png);
+}
+
+.co-mainheader {
+  color: #fff;
+}
+
+.co-subHeader {
+  padding: 60px 0px 60px 0px;
+}
+@media all and (max-width: 1024px) {
+  .co-container {
+    background: none;
+  }
+  .co-header-wrap {
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .co-hide-Image {
+    display: inline;
+  }
+
+  .co-mainHeader {
+    width: 100%;
+    font-size: 2.25rem;
+  }
+
+  .co-subHeader {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .co-mainHeader {
+    font-size: 25px;
+    font-weight: 600;
+  }
+}

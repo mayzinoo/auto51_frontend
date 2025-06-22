@@ -1,0 +1,114 @@
+@media (min-width: 1025px) {
+  .middlecontact-content {
+    /*background: url(//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/contact-sales/left-corner-blob.png)
+        left bottom,
+      url(//cdn2.hubspot.net/hubfs/53/assets/hubspot.com/contact-sales/right-corner-blobs.png)
+        right bottom,
+      #f5f8fa;
+    background-size: 32% auto, 40% auto;
+    background-repeat: no-repeat;*/
+  }
+  .map-and-form {
+    /*margin-right: 50px;
+    margin-left: 50px;
+    padding-right: 100px;
+    padding-left: 100px;*/
+    padding-top: 20px;
+    border-bottom: 3px solid #0fa559;
+  }
+}
+
+.middlecontact-content {
+  padding-top: 100px;
+  /*padding-bottom: 100px;*/
+}
+
+.middlecontact-content {
+  background-color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+
+.middle-h1 {
+  font-size: 46px;
+  font-family: "Montserrat", sans-serif;
+  color: #161514;
+  font-weight: 700;
+}
+
+.head-icon-address {
+  display: inline-block;
+}
+
+.head-icon-phone {
+  display: inline-block;
+}
+
+.head-phone-div {
+  padding-right: 130px;
+  display: inline-block;
+}
+
+.head-icon-email {
+  display: inline-block;
+}
+
+.head-icon-p {
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
+  color: #131312;
+  padding-left: 10px;
+  margin-top: -10px;
+}
+
+.head-email-div {
+  padding-right: 38px;
+}
+
+.head-icon-main {
+  text-align: left;
+  padding-top: 20px;
+}
+
+.head-phone-div {
+  padding-top: 10px;
+}
+
+.head-email-div {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+@media (max-width: 1025px) {
+  .map-and-form {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+
+.map-col-css{
+    height: 415px !important;
+}
+
+.head-address-div{
+  /*display: flex;*/
+}
+.map-col-css{
+  padding-right: 0px !important;
+}
+.contactbg{
+  background: #91d3b7;
+}
+.contactbg span{
+  font-family: "Montserrat", sans-serif;
+    color: #131312;
+}
+.contactbg span i{
+  font-size: 18px;
+}
+.contactinfo{
+  padding-left: 20px;
+}
+.i4ewOd-pzNkMb-haAclf{
+  display: none !important;
+}

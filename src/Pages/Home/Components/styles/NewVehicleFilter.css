@@ -1,0 +1,67 @@
+.vehicleSearch{
+    background-color:  rgba(0, 165, 94,0.9) !important;
+    display: flex;
+    color: aliceblue;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 30px 0px;
+    z-index: 5;
+    position: relative;
+    left: 0;
+    top: -81px;
+}
+.vs-row{
+    position: relative;
+}
+
+.vs-field-lable{
+    color: #ffffff;
+    margin-bottom: 8px;
+    font-family: "Lato", "sans-serif";
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 23px;
+}
+
+.vs-car-dealer-field{
+    font-family: "Lato", "sans-serif";
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    border: none;
+    padding: 0 0 0 15px;
+    height: 40px;
+    line-height: 40px;
+    background: rgba(104, 104, 104, 0.4);
+    -webkit-appearance: none;
+    cursor: pointer;
+    width: 100%;
+    
+}
+
+.vs-car-filter-submit{
+    display: block;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: "Lato", "sans-serif";
+    background: #276c49;
+    text-align: center;
+    border: none;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 30px;
+    transition: all ease-in-out 0.2s;
+    border-radius: 5px;
+}
+
+.vs-car-filter-submit:hover{
+    background-color: #303192;
+}
+.vs-car-dealer-field option{
+    min-height: 7.2em !important;
+    display: block;
+    background: #12a75c;
+    padding: 10px 0px !important;
+}

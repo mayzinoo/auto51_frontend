@@ -1,0 +1,55 @@
+.businesscar-container-wrap {
+  width: 100%;
+  padding: 90px 0px 70px 0px;
+  background: url(../../../../assets/images/businesscar.png);
+  margin: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+.bc-mainheader {
+  /*margin-top: 300px;*/
+  text-align: center;
+  font-size: 2.75rem;
+  color: #00a55e;
+}
+
+.bc-subheader {
+  font-size: 1rem;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.bc-btn {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 20px;
+}
+
+.btn-css {
+  color: #fff;
+  text-decoration: none;
+  font-size: 19px;
+  background-color: #00a55e;
+  width: fit-content;
+  padding: 8px 35px;
+  border-radius: 1rem;
+  border: 1px solid #00a55e;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+
+.btn-css:hover {
+  color: #fff;
+  background-color: #303192;
+  border: 1px solid #303192;
+}
+
+.businessimage {
+  width: 60%;
+  height: auto;
+}

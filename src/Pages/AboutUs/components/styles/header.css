@@ -1,0 +1,38 @@
+.header-container {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.top-div {
+  display: block;
+}
+
+.header {
+  margin-top: 10vh;
+  font-weight: bold;
+  font-size: 38px;
+  color: #00a55e;
+}
+
+.sub-header {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: #555555;
+  font-size: 16px;
+}
+
+.header-container2 {
+  align-items: center;
+  justify-content: center;
+  height: 4vh;
+  text-align: center;
+}
+
+.sub-header2 {
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  color: #555555;
+  font-size: 33px;
+  font-weight: 600;
+}

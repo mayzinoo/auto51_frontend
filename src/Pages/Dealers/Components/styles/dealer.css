@@ -1,0 +1,53 @@
+/* Toggle */
+#dealer-grid-button {
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    color: grey;
+}
+#dealer-grid-button:hover {
+    color: #00a55e;
+    /* display: none !important; */
+}
+/* #dealer-grid-button:hover + #dealer-list-button {
+    display: block !important;
+} */
+
+#dealer-list-button {
+    border: none;
+    background: transparent;
+    font-size: 30px;
+    color: grey;
+}
+#dealer-list-button:hover {
+    color: #00a55e;
+}
+
+.dealer-grid-div {
+    margin: 30px 0 10px 0;
+    /* width: fit-content; */
+}
+
+/* Filter */
+#dealer-filter-popup {
+    margin-left: auto;
+    display: flex;
+    margin-top: 10px;
+    border: none;
+    background: transparent;
+}
+
+#dealer-filter-popup text {
+    margin-right: 5px;
+}
+
+#dealer-filter-popup .fa-sort-down {
+    margin-bottom: 3px;
+}
+
+#dealer-filter-popup .fa-sort-up {
+    margin-top: 8px;
+}
+.dealer-filter select {
+    width: 100%;
+}

@@ -1,0 +1,16 @@
+.navheader-section {
+    background-color: #fff;
+}
+
+.navheader-links {
+    padding: 20px 0;
+}
+
+.navheader-links span {
+    margin-right: 5px;
+}
+
+.navheader-links a {
+    text-decoration: none;
+    color: grey;
+}

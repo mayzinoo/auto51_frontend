@@ -1,0 +1,118 @@
+@media only screen and (max-width: 767px) {
+    span.info-card-icons {
+        float: left;
+        padding: 5px 15px 20px 0; /**bottom padding should change depending on media size*/
+        color: #00a55e;
+    }
+
+    .info-row {
+        padding: 30px;
+    }
+
+    div.info-column {
+        padding: 10px 0;
+    }
+
+    .info-card .info-hover::before {
+        content: "";
+        background: black;
+        position: absolute;
+        height: 1px;
+        width: 70px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transition: all 0.4s ease-in-out 0s;
+    }
+
+    .info-card:hover > .info-hover::before {
+        content: "";
+        background: black;
+        position: absolute;
+        height: 1px;
+        width: 85%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transition: all 0.4s ease-in-out 0s;
+    }
+}
+
+@media only screen and (min-width: 767px) {
+    span.info-card-icons {
+        float: left;
+        padding: 5px 10px 5px 0; /**bottom padding should change depending on media size*/
+        color: #00a55e;
+    }
+
+    div.info-column {
+        padding: 10px 5px;
+    }
+
+    .info-card .info-hover::before {
+        content: "";
+        background: black;
+        position: absolute;
+        height: 1px;
+        width: 70px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transition: all 0.4s ease-in-out 0s;
+    }
+
+    .info-card:hover > .info-hover::before {
+        content: "";
+        background: black;
+        position: absolute;
+        height: 1px;
+        width: 85%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        transition: all 0.4s ease-in-out 0s;
+    }
+}
+
+.info-section {
+    padding: 60px 0;
+}
+.card{
+    height: 347px;
+}
+/** InfoColumn */
+
+.info-card-title {
+    border-left: 1px solid #00a55e;
+    padding: 0 0 0 20px;
+    margin: 20px 0;
+    font-weight: 700;
+}
+
+/** Info child elements */
+
+.info-card .info-grey {
+    color: grey;
+}
+
+.info-card .info-theme {
+    color: #00a55e;   
+}
+
+    /** second column */
+
+ul.info-list {
+    list-style: none;
+    text-align: right;
+    padding-left: 0 !important;
+}
+
+ul.info-list li span {
+    font-weight: 600;
+    float: left;
+}
+    /** third column */
+
+.info-social-icons {
+    margin: 0 5px;
+}
+
+.info-social-icons:hover {
+    color: #00a55e; 
+}

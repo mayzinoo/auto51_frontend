@@ -1,0 +1,47 @@
+.pa-container {
+  padding: 0px !important;
+}
+
+.pa-mainheader {
+  font-weight: bold;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.pa-image {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.pa-div {
+  padding-left: 17rem;
+  padding-right: 17rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+.paymentimage {
+  width: 20%;
+  height: auto;
+}
+/* @media (min-width: 1024px)
+{
+    .pa-div {
+        padding-left: 17rem;
+        padding-right: 17rem;
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+    }
+}
+
+@media (min-width: 768px)
+{
+    .pa-div {
+        font-size: 1.5rem;
+        line-height: 2rem;
+    }
+}
+ */

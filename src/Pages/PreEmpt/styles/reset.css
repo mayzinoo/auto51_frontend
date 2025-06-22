@@ -1,0 +1,119 @@
+.lost-content {
+  padding: 40px 0;
+}
+
+.lost-form-wrap {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 30px !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  max-width: 450px;
+  padding: 34px 30px 30px 30px;
+  background: #ffffff;
+  -webkit-box-shadow: 0 2px 3px 0 rgb(50 50 50 / 10%);
+  -moz-box-shadow: 0 2px 3px 0 rgba(50, 50, 50, 0.1);
+  box-shadow: 0 2px 3px 0 rgb(50 50 50 / 10%);
+}
+
+.lost-main-div {
+  max-width: 1140px;
+}
+
+.lost-field-div {
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+
+.lost-label {
+  display: block;
+  margin: 0.5em 0;
+  color: #565656;
+  font-family: "Muli", sans-serif;
+  font-weight: bold;
+}
+
+.lost-field {
+  height: 45px;
+  line-height: 45px;
+  border: 1px solid #dfdfdf;
+  padding: 0 15px;
+  color: #777;
+  width: 100%;
+}
+
+.lost-btn {
+  text-transform: uppercase;
+  color: #fff;
+  background: #00a55e;
+  border: 1px solid #00a55e;
+  text-align: center;
+  padding: 0 30px;
+  border: none;
+  height: 35px;
+  line-height: 35px;
+  transition: all 0.3s linear;
+  font-size: 15px;
+}
+
+.lost-btn:hover {
+  background-color: #303192;
+  color: #fff;
+}
+
+.login-ul {
+  list-style: disc;
+  margin-left: -20px;
+  padding-top: 20px;
+}
+
+.login-li {
+  list-style: disc;
+  line-height: 25px;
+}
+
+.login-a {
+  text-decoration: none;
+  color: #222222;
+}
+
+.login-a:hover {
+  color: #00a55e;
+}
+
+.preEmpt-error-msg {
+  color: #ff0812;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.success-css{
+  color: #0f902f;
+  background-color: #fff;
+}
+
+.danger-css{
+  color: #FF0812;
+  background-color: #fff;
+}
+
+.alert-primary {
+  --bs-alert-color: #fff !important;
+  --bs-alert-bg: #fff !important;
+  --bs-alert-border-color: #fff !important;
+  --bs-alert-padding-x: 0.2rem !important;
+  --bs-alert-padding-y: 0.2rem !important;
+  border-color: #fff !important;
+}
+
+.alert-heading {
+  color: inherit;
+  font-size: 17px !important;
+  text-align: center;
+  margin-bottom: .1rem !important;
+}

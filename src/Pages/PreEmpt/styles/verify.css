@@ -1,0 +1,97 @@
+.verify-content {
+  padding: 40px 0;
+}
+
+.verify-form-wrap {
+  width: 100%;
+  text-align: left;
+  box-sizing: border-box;
+  color: #666;
+  font-size: 15px;
+  margin-bottom: 30px !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  padding: 34px 30px 30px 30px;
+  background: #ffffff;
+  box-shadow: 0 2px 3px 0 rgb(50 50 50 / 10%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.verify-main-div {
+  max-width: 560px;
+}
+
+.verify-btn {
+  text-transform: uppercase;
+  color: #fff;
+  background: #00a55e;
+  text-align: center;
+  padding: 0 30px;
+  height: 43px;
+  line-height: 35px;
+  transition: all 0.3s linear;
+  font-size: 15px;
+  border: 1px solid #00a55e;
+  width: 250px;
+}
+
+.verify-btn:hover {
+  background-color: #303192;
+  border: 1px solid #303192;
+  color: #fff;
+}
+
+.verify-error-alert {
+  border-left: 4px solid #ff0812;
+  box-shadow: 1px 1px 2px 1px rgb(0 0 0 / 10%);
+  display: block;
+  margin: 0 0 1em;
+  padding: 0.75em;
+  display: hidden;
+}
+
+.preEmpt-error-msg {
+  color: #ff0812;
+  font-size: 14px;
+  margin-top: 3px;
+}
+
+.success-css {
+  color: #0f902f;
+  background-color: #fff;
+}
+
+.danger-css {
+  color: #ff0812;
+  background-color: #fff;
+}
+
+.alert-primary {
+  --bs-alert-color: #fff !important;
+  --bs-alert-bg: #fff !important;
+  --bs-alert-border-color: #fff !important;
+  --bs-alert-padding-x: 0.2rem !important;
+  --bs-alert-padding-y: 0.2rem !important;
+  border-color: #fff !important;
+}
+
+.alert-heading {
+  color: inherit;
+  font-size: 17px !important;
+  text-align: center;
+  margin-bottom: 0.1rem !important;
+}
+
+.verify-title-text {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 2em;
+}
+
+.verify-text {
+  text-align: center;
+  margin-bottom: 3em;
+}

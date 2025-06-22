@@ -1,0 +1,196 @@
+.top-footer{
+    /*background-image: url(../../../assets/images/bg-footer.jpg);*/
+    /*background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    padding: 68px 0 50px;
+    position: relative;
+    background-color: #00a55e!important;
+  }
+    
+  .top-footer:after {
+    background-color: rgba(0, 0, 0, 0.5);
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+  }
+  
+  .footermenu{
+    z-index: 1;
+    color: aliceblue;
+  }
+  
+  .contact-info-widget{
+    margin: 0 0 22px;
+  }
+  
+  .bottom-widget-title{
+    margin: 0 0 19px;
+    padding: 0;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 27px;
+    text-transform: uppercase;
+  }
+  
+  .contact-info-description{
+    padding-bottom: 6px;
+    margin-bottom: 0;
+    font-weight: 400;
+    color : #868686;
+    line-height: 25px;
+    font-size: 14px;
+    font-family: 'Muli',sans-serif;
+  }
+  
+  .contact-info-content span{
+    color: #ddd;
+    display: block;
+    margin: 11px 0 0;
+    font-size: 14px;
+    font-family: 'Muli',sans-serif; ;
+    position: relative;
+    font-style: normal;
+    
+  }
+  
+  .company-widget{
+    margin : 0 0 22px;
+  }
+  
+  .company-content{
+    font-size: 14px;
+    color: #565656;
+    font-family: 'Muli',sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  
+  .company-content p a {
+    font-weight : 400;
+    color: #ddd;
+    line-height: 23px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .company-content p a:hover{
+    color: #ddd;
+  }
+  
+  .openHour-widget{
+    margin : 0 0 22px;
+  }
+  
+  .openHour-content{
+    font-size: 14px;
+    color: #565656;
+    font-family: 'Muli',sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  
+  .openHour-content p{
+    font-weight : 400;
+    color: #ddd;
+    line-height: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .letter-widget{
+    margin : 0 0 22px;
+  }
+  
+  .letter-content{
+    font-size: 14px;
+    color: #565656;
+    font-family: 'Muli',sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+  }
+  
+  .letter-content p{
+    font-weight : 400;
+    color: #868686;
+    line-height: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .sletter-textbox{
+    margin : 0 0 22px;
+  }
+  
+  .letteremail-formgroup{
+    width: 100%;
+  }
+  
+  .newsletter-form{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  
+  .newsletter-textbox{
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    display: inline-block;
+    border: 1px solid #ddd;
+    background-color: #f4f4f4;
+    color: #444;
+    font-size: 17px;
+  }
+  
+  .newsletter-submit{
+    outline: none;
+    width: 60px;
+    font-size: 0;
+    background: #00a55e;
+    padding: 0;
+    border: 1px solid #ddd;
+    background-image: url(../../../assets/images/icon-checked.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-origin: border-box;
+  }
+
+  @media all and (max-width: 576px){
+    .footermenu{
+      padding: 0px 20px!important;
+    }
+
+  }
+
+  .footer-ci-col-desc{
+    font-size: 15px;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.footer-ci-col-desc span{
+    display: flex;
+    align-items: center;
+    margin: 15px 0px 10px 0px;
+}
+
+.footer-ci-col-desc span i{
+    padding-right: 15px;
+}
